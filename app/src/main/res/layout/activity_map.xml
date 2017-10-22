@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joglove.cooltour.ui.MapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_margin="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:text="BALAI KOTA SURABAYA"
+            android:textSize="12pt"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Harga Tiket : Gratis"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="jarak dengan anda : 43 km"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Deskripsi :\n\nTempat para pejabat negara di surabaya melangsungkan pekerjaannya"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Dapat ditempuh dengan:\n1.Jalan Kaki\n2.Mobil\n3.Sepeda"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
